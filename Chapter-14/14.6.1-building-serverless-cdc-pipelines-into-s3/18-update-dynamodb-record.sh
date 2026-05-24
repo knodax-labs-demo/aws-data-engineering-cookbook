@@ -1,0 +1,1 @@
+aws dynamodb update-item   --table-name $TABLE_NAME   --key '{"order_id":{"S":"1001"}}'   --update-expression     "SET sales_amount = :s"   --expression-attribute-values     '{":s":{"N":"1450"}}'   --region $REGION

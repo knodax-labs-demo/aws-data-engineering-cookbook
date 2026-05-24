@@ -1,0 +1,1 @@
+aws cloudwatch put-metric-alarm   --alarm-name $CW_ALARM_NAME   --metric-name glue.driver.aggregate.numFailedTasks   --namespace Glue   --statistic Sum   --period 300   --threshold 1   --comparison-operator GreaterThanOrEqualToThreshold   --evaluation-periods 1   --alarm-actions $SNS_TOPIC_ARN

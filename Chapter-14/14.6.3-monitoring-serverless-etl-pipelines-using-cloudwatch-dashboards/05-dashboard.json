@@ -1,0 +1,84 @@
+{
+  "widgets": [
+    {
+      "type": "metric",
+      "x": 0,
+      "y": 0,
+      "width": 12,
+      "height": 6,
+      "properties": {
+        "title": "Lambda Invocations and Errors",
+        "view": "timeSeries",
+        "stacked": false,
+        "region": "$AWS_REGION",
+        "metrics": [
+          [ "AWS/Lambda", "Invocations", "FunctionName", "$FUNCTION_NAME" ],
+          [ ".", "Errors", ".", "." ]
+        ],
+        "period": 300
+      }
+    },
+    {
+      "type": "metric",
+      "x": 12,
+      "y": 0,
+      "width": 12,
+      "height": 6,
+      "properties": {
+        "title": "Lambda Duration",
+        "view": "timeSeries",
+        "stacked": false,
+        "region": "$AWS_REGION",
+        "metrics": [
+          [ "AWS/Lambda", "Duration", "FunctionName", "$FUNCTION_NAME" ]
+        ],
+        "period": 300,
+        "stat": "Average"
+      }
+    },
+    {
+      "type": "metric",
+      "x": 0,
+      "y": 6,
+      "width": 12,
+      "height": 6,
+      "properties": {
+        "title": "SQS Queue Depth",
+        "view": "timeSeries",
+        "stacked": false,
+        "region": "$AWS_REGION",
+        "metrics": [
+          [
+            "AWS/SQS",
+            "ApproximateNumberOfMessagesVisible",
+            "QueueName",
+            "$MAIN_QUEUE_NAME"
+          ]
+        ],
+        "period": 300
+      }
+    },
+    {
+      "type": "metric",
+      "x": 12,
+      "y": 6,
+      "width": 12,
+      "height": 6,
+      "properties": {
+        "title": "Oldest Queue Message",
+        "view": "timeSeries",
+        "stacked": false,
+        "region": "$AWS_REGION",
+        "metrics": [
+          [
+            "AWS/SQS",
+            "ApproximateAgeOfOldestMessage",
+            "QueueName",
+            "$MAIN_QUEUE_NAME"
+          ]
+        ],
+        "period": 300
+      }
+    }
+  ]
+}

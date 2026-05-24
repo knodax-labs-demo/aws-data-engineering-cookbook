@@ -1,0 +1,1 @@
+aws lambda create-function   --function-name $FUNCTION_NAME   --runtime python3.12   --role $ROLE_ARN   --handler lambda_function.lambda_handler   --zip-file fileb://async-etl-worker.zip   --timeout 60   --memory-size 128   --environment Variables="{CURATED_BUCKET=$CURATED_BUCKET}"   --region $REGION

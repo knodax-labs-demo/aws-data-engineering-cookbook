@@ -1,0 +1,23 @@
+{
+  "EncryptionConfiguration": {
+    "EnableAtRestEncryption": true,
+    "EnableInTransitEncryption": true,
+    "AtRestEncryptionConfiguration": {
+      "S3EncryptionConfiguration": {
+        "EncryptionMode": "SSE-KMS",
+        "AwsKmsKey": "$KMS_KEY_ID"
+      },
+      "LocalDiskEncryptionConfiguration": {
+        "EncryptionKeyProviderType": "AwsKms",
+        "AwsKmsKey": "$KMS_KEY_ID"
+      }
+    },
+    "InTransitEncryptionConfiguration": {
+      "TLSCertificateConfiguration": {
+        "CertificateProviderType": "PEM",
+        "S3Object": "s3://elasticmapreduce/samples/pem/privateKey.pem"
+      }
+    }
+  }
+}
+EOF

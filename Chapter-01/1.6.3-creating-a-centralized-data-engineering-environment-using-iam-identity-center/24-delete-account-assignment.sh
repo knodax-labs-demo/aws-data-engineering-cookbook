@@ -1,0 +1,1 @@
+aws sso-admin delete-account-assignment   --instance-arn $IDENTITY_CENTER_INSTANCE_ARN   --target-id $ACCOUNT_ID   --target-type AWS_ACCOUNT   --permission-set-arn $PERMISSION_SET_ARN   --principal-type GROUP   --principal-id $GROUP_ID

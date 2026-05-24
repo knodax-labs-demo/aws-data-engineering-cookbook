@@ -1,0 +1,1 @@
+aws emr add-steps   --cluster-id $CLUSTER_ID   --steps Type=Spark,Name="ComplianceLoggingTest",ActionOnFailure=CONTINUE,Args=[--class,org.apache.spark.examples.SparkPi,/usr/lib/spark/examples/jars/spark-examples.jar,100]   --region $REGION

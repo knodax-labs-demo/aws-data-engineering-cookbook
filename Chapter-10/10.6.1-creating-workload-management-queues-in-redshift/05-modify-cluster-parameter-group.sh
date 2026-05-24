@@ -1,0 +1,1 @@
+aws redshift modify-cluster-parameter-group   --parameter-group-name default.redshift-1.0   --parameters "ParameterName=wlm_json_configuration,ParameterValue='$(cat wlm-config.json)'"   --region $REGION

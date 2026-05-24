@@ -1,0 +1,1 @@
+aws cloudwatch get-metric-statistics   --namespace AWS/Kinesis   --metric-name IncomingRecords   --dimensions Name=StreamName,Value=$STREAM_NAME   --statistics Sum   --period 60   --start-time $(date -u -d '10 minutes ago' +%Y-%m-%dT%H:%M:%SZ)   --end-time $(date -u +%Y-%m-%dT%H:%M:%SZ)

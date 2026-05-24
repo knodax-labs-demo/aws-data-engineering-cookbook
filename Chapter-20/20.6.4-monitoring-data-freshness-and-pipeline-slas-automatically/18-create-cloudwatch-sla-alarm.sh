@@ -1,0 +1,1 @@
+aws cloudwatch put-metric-alarm --alarm-name DatasetFreshnessAlarm --metric-name DatasetFreshnessMinutes --namespace DataEngineering/SLA --statistic Average --period 300 --threshold 60 --comparison-operator GreaterThanThreshold --evaluation-periods 1 --alarm-actions arn:aws:sns:<REGION>:<ACCOUNT_ID>:pipeline-sla-alerts

@@ -1,0 +1,1 @@
+aws emr add-steps   --cluster-id $CLUSTER_ID   --steps Type=Spark,Name="GlueCatalogAnalytics",ActionOnFailure=CONTINUE,Args=[--deploy-mode,cluster,s3://$RAW_BUCKET/scripts/spark_glue_query.py]   --region $REGION

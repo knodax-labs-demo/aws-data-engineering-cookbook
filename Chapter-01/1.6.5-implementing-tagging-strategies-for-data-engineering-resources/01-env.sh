@@ -1,0 +1,4 @@
+REGION=us-east-1
+TARGET_OU_NAME=DataEngineering
+TAG_POLICY_NAME=DataEngineeringTagPolicy
+SCP_NAME=DenyUntaggedAnalyticsResources

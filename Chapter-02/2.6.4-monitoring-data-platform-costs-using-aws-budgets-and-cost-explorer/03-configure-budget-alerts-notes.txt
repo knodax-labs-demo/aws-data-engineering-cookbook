@@ -1,0 +1,9 @@
+Configure:
+- Alert threshold: 80%
+- Trigger type: Actual Cost
+- Notification method: Email
+
+Optional additional alerts:
+- 90%
+- 100%
+- Forecasted alerts

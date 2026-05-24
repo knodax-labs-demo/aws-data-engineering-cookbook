@@ -1,0 +1,1 @@
+aws athena start-query-execution   --query-string "DROP TABLE IF EXISTS $DATABASE_NAME.customers;"   --query-execution-context Database=$DATABASE_NAME   --result-configuration OutputLocation=s3://$ATHENA_RESULTS_BUCKET/results/

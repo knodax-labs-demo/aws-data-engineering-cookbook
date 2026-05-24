@@ -1,0 +1,1 @@
+aws emr create-cluster   --name $CLUSTER_NAME   --release-label emr-7.0.0   --applications Name=Spark   --instance-type m5.xlarge   --instance-count 3   --security-configuration EncryptedEMRSecurityConfig   --use-default-roles   --log-uri s3://$DATA_BUCKET/emr-logs/   --region $REGION

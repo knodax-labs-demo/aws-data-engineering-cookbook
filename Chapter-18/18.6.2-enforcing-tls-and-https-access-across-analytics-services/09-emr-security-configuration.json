@@ -1,0 +1,11 @@
+{
+  "EncryptionConfiguration": {
+    "EnableInTransitEncryption": true,
+    "InTransitEncryptionConfiguration": {
+      "TLSCertificateConfiguration": {
+        "CertificateProviderType": "PEM",
+        "S3Object": "s3://elasticmapreduce/samples/pem/privateKey.pem"
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+aws cloudwatch get-metric-statistics   --namespace AWS/Lambda   --metric-name Invocations   --dimensions Name=FunctionName,Value=$FUNCTION_NAME   --statistics Sum   --period 300   --start-time $(date -u -d '1 hour ago' +%Y-%m-%dT%H:%M:%SZ)   --end-time $(date -u +%Y-%m-%dT%H:%M:%SZ)

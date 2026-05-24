@@ -1,0 +1,1 @@
+aws lambda add-permission --function-name pipeline-sla-monitor --statement-id eventbridge-sla --action lambda:InvokeFunction --principal events.amazonaws.com --source-arn arn:aws:events:<REGION>:<ACCOUNT_ID>:rule/pipeline-sla-schedule

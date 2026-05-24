@@ -1,0 +1,1 @@
+aws lambda create-function   --function-name $FUNCTION_NAME   --runtime python3.12   --role $ROLE_ARN   --handler lambda_function.lambda_handler   --zip-file fileb://eventbridge-etl.zip   --timeout 30   --memory-size 128   --environment Variables="{CURATED_BUCKET=$CURATED_BUCKET}"   --region $REGION

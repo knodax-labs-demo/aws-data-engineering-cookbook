@@ -1,0 +1,14 @@
+Use Cost Explorer filters to analyze:
+- Amazon S3
+- AWS Glue
+- Amazon EMR
+- Amazon Athena
+- Amazon Redshift
+- AWS Lambda
+- Amazon SageMaker
+
+Review:
+- Service-level costs
+- Region-based charges
+- Daily and monthly trends
+- Usage patterns

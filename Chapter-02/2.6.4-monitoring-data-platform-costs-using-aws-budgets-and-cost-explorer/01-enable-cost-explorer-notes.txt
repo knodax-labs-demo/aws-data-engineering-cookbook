@@ -1,0 +1,5 @@
+Open the AWS Management Console and navigate to AWS Console → Billing and Cost Management.
+
+Navigate to Cost Explorer and choose Enable Cost Explorer.
+
+Optionally, enable Free Tier usage alerts under Billing Preferences.

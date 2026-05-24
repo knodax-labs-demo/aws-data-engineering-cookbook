@@ -1,0 +1,4 @@
+{
+  "RedrivePolicy": "{\"deadLetterTargetArn\":\"$DLQ_ARN\",\"maxReceiveCount\":\"3\"}",
+  "VisibilityTimeout": "60"
+}

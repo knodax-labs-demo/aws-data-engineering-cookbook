@@ -1,0 +1,1 @@
+aws lambda create-function --function-name streaming-sentiment-analysis --runtime python3.12 --role arn:aws:iam::$ACCOUNT_ID:role/SentimentPipelineLambdaRole --handler lambda_function.lambda_handler --zip-file fileb://function.zip

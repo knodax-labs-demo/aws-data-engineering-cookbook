@@ -1,0 +1,1 @@
+aws emr add-steps   --cluster-id $CLUSTER_ID   --steps Type=Spark,Name="PetabytePySparkTransform",ActionOnFailure=CONTINUE,Args=[--deploy-mode,cluster,s3://$RAW_BUCKET/scripts/petabyte_pyspark_transform.py]   --region $REGION

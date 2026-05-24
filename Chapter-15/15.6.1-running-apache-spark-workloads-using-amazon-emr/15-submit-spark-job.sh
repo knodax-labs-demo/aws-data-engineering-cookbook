@@ -1,0 +1,1 @@
+aws emr add-steps   --cluster-id $CLUSTER_ID   --steps Type=Spark,Name="RegionalSalesAnalysis",ActionOnFailure=CONTINUE,Args=[--deploy-mode,cluster,s3://$RAW_BUCKET/scripts/spark_sales_analysis.py]   --region $REGION

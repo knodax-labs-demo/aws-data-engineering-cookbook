@@ -1,0 +1,1 @@
+aws lakeformation grant-permissions --principal DataLakePrincipalIdentifier="$ANALYST_PRINCIPAL_ARN" --permissions DESCRIBE --resource "{\"Database\":{\"CatalogId\":\"$ACCOUNT_ID\",\"Name\":\"$DATABASE_NAME\"}}" --region "$REGION"

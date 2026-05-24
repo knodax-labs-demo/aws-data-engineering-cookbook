@@ -1,0 +1,3 @@
+order_id,customer_id,amount,region
+1001,C001,250,us-east
+1002,C002,300,us-west

@@ -1,0 +1,1 @@
+aws lakeformation grant-permissions   --principal DataLakePrincipalIdentifier="$GLUE_ROLE_ARN"   --permissions DESCRIBE   --resource "{\"Database\":{\"Name\":\"$DATABASE_NAME\"}}"   --region "$REGION"

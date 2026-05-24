@@ -1,0 +1,1 @@
+aws redshift create-snapshot-schedule   --schedule-definitions "rate(1 day)"   --schedule-identifier analytics-retention-schedule   --schedule-description "Automated Redshift snapshot retention schedule"   --region $REGION

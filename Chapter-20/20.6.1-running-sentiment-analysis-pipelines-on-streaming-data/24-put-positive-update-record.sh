@@ -1,0 +1,1 @@
+aws kinesis put-record   --stream-name sentiment-stream   --partition-key "user3"   --data "The latest application update works very well."   --cli-binary-format raw-in-base64-out   --region "$REGION"

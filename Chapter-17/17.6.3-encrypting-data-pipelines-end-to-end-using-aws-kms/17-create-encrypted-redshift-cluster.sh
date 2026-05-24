@@ -1,0 +1,1 @@
+aws redshift create-cluster   --cluster-identifier encrypted-redshift-cluster   --node-type dc2.large   --master-username adminuser   --master-user-password StrongPassword123!   --cluster-type single-node   --encrypted   --kms-key-id $KMS_KEY_ID   --region $REGION

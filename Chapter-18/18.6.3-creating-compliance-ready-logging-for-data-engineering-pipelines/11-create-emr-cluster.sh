@@ -1,0 +1,1 @@
+aws emr create-cluster   --name $CLUSTER_NAME   --release-label emr-7.0.0   --applications Name=Spark Name=Hadoop   --instance-type m5.xlarge   --instance-count 3   --use-default-roles   --log-uri s3://$LOG_BUCKET/emr-logs/   --region $REGION

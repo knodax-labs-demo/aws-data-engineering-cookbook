@@ -1,0 +1,1 @@
+aws cloudwatch get-metric-statistics   --namespace AWS/SQS   --metric-name ApproximateNumberOfMessagesVisible   --dimensions Name=QueueName,Value=$MAIN_QUEUE_NAME   --statistics Average   --period 300   --start-time $(date -u -d '1 hour ago' +%Y-%m-%dT%H:%M:%SZ)   --end-time $(date -u +%Y-%m-%dT%H:%M:%SZ)

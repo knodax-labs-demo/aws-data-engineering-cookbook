@@ -1,0 +1,1 @@
+aws configservice put-configuration-recorder   --configuration-recorder name=ConfigRecorder,roleARN=arn:aws:iam::$ACCOUNT_ID:role/ConfigServiceRole   --recording-group allSupported=true,includeGlobalResourceTypes=true

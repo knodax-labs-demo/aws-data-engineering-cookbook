@@ -1,0 +1,1 @@
+aws emr add-steps   --cluster-id $CLUSTER_ID   --steps Type=CUSTOM_JAR,Name="WebLogAnalysis",ActionOnFailure=CONTINUE,Jar=command-runner.jar,Args=[hadoop-streaming,-files,s3://$RAW_BUCKET/scripts/mapper.py,s3://$RAW_BUCKET/scripts/reducer.py,-mapper,mapper.py,-reducer,reducer.py,-input,s3://$RAW_BUCKET/web_logs.txt,-output,s3://$CURATED_BUCKET/hadoop-output/]   --region $REGION

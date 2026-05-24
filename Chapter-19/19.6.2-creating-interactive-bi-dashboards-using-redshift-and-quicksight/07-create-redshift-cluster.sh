@@ -1,0 +1,1 @@
+aws redshift create-cluster --cluster-identifier de-quicksight-demo --node-type ra3.xlplus --master-username adminuser --master-user-password MySecurePassword123! --db-name analyticsdb --iam-roles arn:aws:iam::<ACCOUNT_ID>:role/RedshiftS3AccessRole --cluster-type single-node

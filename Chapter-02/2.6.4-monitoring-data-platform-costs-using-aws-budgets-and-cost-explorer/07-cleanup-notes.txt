@@ -1,0 +1,4 @@
+To remove the budget:
+Navigate to Billing → Budgets
+Select DataEngineeringMonthlyBudget
+Choose Delete Budget

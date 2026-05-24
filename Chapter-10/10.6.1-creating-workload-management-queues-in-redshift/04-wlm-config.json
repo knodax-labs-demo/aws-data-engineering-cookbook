@@ -1,0 +1,17 @@
+[
+  {
+    "query_group": ["etl"],
+    "query_concurrency": 5,
+    "memory_percent_to_use": 60
+  },
+  {
+    "query_group": ["reporting"],
+    "query_concurrency": 10,
+    "memory_percent_to_use": 30
+  },
+  {
+    "query_group": ["adhoc"],
+    "query_concurrency": 3,
+    "memory_percent_to_use": 10
+  }
+]

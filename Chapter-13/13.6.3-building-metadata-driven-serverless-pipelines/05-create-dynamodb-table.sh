@@ -1,0 +1,1 @@
+aws dynamodb create-table   --table-name $TABLE_NAME   --attribute-definitions       AttributeName=dataset_type,AttributeType=S   --key-schema       AttributeName=dataset_type,KeyType=HASH   --billing-mode PAY_PER_REQUEST   --region $REGION

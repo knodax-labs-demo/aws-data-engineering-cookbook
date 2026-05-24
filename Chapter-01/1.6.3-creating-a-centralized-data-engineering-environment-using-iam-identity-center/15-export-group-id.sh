@@ -1,0 +1,1 @@
+export GROUP_ID=<GROUP_ID>

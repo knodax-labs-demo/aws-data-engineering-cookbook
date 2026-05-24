@@ -1,0 +1,1 @@
+aws emr add-steps   --cluster-id $CLUSTER_ID   --steps Type=Spark,Name="OptimizedSparkAnalytics",ActionOnFailure=CONTINUE,Args=[--deploy-mode,cluster,s3://$RAW_BUCKET/scripts/optimized_spark_job.py]   --region $REGION

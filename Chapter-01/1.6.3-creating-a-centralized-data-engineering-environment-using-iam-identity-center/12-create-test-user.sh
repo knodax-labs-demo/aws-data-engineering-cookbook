@@ -1,0 +1,1 @@
+aws identitystore create-user   --identity-store-id $IDENTITY_STORE_ID   --user-name data.engineer   --display-name "Data Engineer"   --name GivenName=Data,FamilyName=Engineer   --emails Value=data.engineer@example.com,Type=Work,Primary=true

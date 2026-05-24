@@ -1,0 +1,1 @@
+aws sso-admin detach-managed-policy-from-permission-set   --instance-arn $IDENTITY_CENTER_INSTANCE_ARN   --permission-set-arn $PERMISSION_SET_ARN   --managed-policy-arn arn:aws:iam::aws:policy/AmazonS3FullAccess

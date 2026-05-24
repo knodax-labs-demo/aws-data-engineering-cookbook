@@ -1,0 +1,5 @@
+Use Cost Explorer forecasting to review:
+- ETL processing growth
+- Analytics cluster spending
+- Storage growth
+- Machine learning training costs

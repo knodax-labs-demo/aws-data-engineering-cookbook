@@ -1,0 +1,1 @@
+aws glue create-job   --name $GLUE_JOB_NAME   --role $GLUE_ROLE   --command "{\"Name\":\"glueetl\",\"ScriptLocation\":\"s3://$RAW_BUCKET/scripts/recommendation_etl.py\"}"   --glue-version "4.0"   --worker-type G.1X   --number-of-workers 2   --region $REGION

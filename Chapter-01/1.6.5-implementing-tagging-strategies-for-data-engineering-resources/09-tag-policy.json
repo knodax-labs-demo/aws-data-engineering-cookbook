@@ -1,0 +1,36 @@
+{
+  "tags": {
+    "Environment": {
+      "tag_key": {
+        "@@assign": "Environment"
+      },
+      "tag_value": {
+        "@@assign": [
+          "Dev",
+          "Test",
+          "Prod"
+        ]
+      }
+    },
+    "Owner": {
+      "tag_key": {
+        "@@assign": "Owner"
+      }
+    },
+    "CostCenter": {
+      "tag_key": {
+        "@@assign": "CostCenter"
+      }
+    },
+    "DataDomain": {
+      "tag_key": {
+        "@@assign": "DataDomain"
+      }
+    },
+    "Compliance": {
+      "tag_key": {
+        "@@assign": "Compliance"
+      }
+    }
+  }
+}

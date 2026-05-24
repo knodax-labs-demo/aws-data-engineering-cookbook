@@ -1,0 +1,1 @@
+aws emr add-steps   --cluster-id $CLUSTER_ID   --steps Type=Spark,Name="SparkStreamingDemoWithoutKafka",ActionOnFailure=CONTINUE,Args=[--deploy-mode,cluster,s3://$CURATED_BUCKET/scripts/spark_streaming_demo.py]   --region $REGION

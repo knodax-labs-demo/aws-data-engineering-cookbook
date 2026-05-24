@@ -1,0 +1,1 @@
+export TAG_POLICY_ID=$(aws organizations create-policy   --name "$TAG_POLICY_NAME"   --description "Standardized tags for data engineering resources"   --type TAG_POLICY   --content file://tag-policy.json   --query 'Policy.PolicySummary.Id'   --output text)

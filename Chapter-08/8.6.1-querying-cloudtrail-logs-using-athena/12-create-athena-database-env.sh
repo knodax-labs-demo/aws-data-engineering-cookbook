@@ -1,0 +1,1 @@
+export ATHENA_DATABASE=cloudtrail_audit_db

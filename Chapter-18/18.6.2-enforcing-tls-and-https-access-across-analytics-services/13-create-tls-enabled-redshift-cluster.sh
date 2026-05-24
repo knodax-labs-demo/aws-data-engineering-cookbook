@@ -1,0 +1,1 @@
+aws redshift create-cluster   --cluster-identifier secure-redshift-cluster   --node-type dc2.large   --master-username adminuser   --master-user-password StrongPassword123!   --cluster-type single-node   --encrypted   --publicly-accessible false   --region $REGION

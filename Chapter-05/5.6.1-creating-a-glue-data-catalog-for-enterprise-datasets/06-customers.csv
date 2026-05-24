@@ -1,0 +1,4 @@
+customer_id,name,region,revenue
+1001,Alice,us-east,2500
+1002,Bob,us-west,3200
+1003,Charlie,eu-central,1800

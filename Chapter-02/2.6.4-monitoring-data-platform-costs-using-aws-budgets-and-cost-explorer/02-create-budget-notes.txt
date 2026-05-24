@@ -1,0 +1,9 @@
+Navigate to Billing → Budgets and choose Create Budget.
+
+Select Cost Budget as the budget type.
+
+Configure:
+- Monthly budget period
+- Fixed budget type
+- Budget amount: $25
+- Budget name: DataEngineeringMonthlyBudget

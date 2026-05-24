@@ -1,0 +1,6 @@
+Validate:
+- Budget exists
+- Alert thresholds are configured
+- Email recipients are configured
+- Cost Explorer data is visible
+- Forecast reports are available

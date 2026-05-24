@@ -1,0 +1,1 @@
+aws athena start-query-execution   --query-string "MSCK REPAIR TABLE $ATHENA_DATABASE.$ATHENA_TABLE;"   --result-configuration OutputLocation=s3://$CLOUDTRAIL_BUCKET/athena-results/   --region $REGION

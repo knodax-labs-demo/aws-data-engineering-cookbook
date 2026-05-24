@@ -1,0 +1,35 @@
+[
+  {
+    "InstanceFleetType": "MASTER",
+    "TargetOnDemandCapacity": 1,
+    "InstanceTypeConfigs": [
+      {
+        "InstanceType": "m5.xlarge"
+      }
+    ],
+    "Name": "PrimaryFleet"
+  },
+  {
+    "InstanceFleetType": "CORE",
+    "TargetSpotCapacity": 4,
+    "LaunchSpecifications": {
+      "SpotSpecification": {
+        "TimeoutDurationMinutes": 15,
+        "TimeoutAction": "SWITCH_TO_ON_DEMAND",
+        "AllocationStrategy": "CAPACITY_OPTIMIZED"
+      }
+    },
+    "InstanceTypeConfigs": [
+      {
+        "InstanceType": "m5.xlarge"
+      },
+      {
+        "InstanceType": "m5a.xlarge"
+      },
+      {
+        "InstanceType": "m4.xlarge"
+      }
+    ],
+    "Name": "CoreSpotFleet"
+  }
+]

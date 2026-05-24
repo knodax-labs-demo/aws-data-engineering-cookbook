@@ -1,0 +1,4 @@
+echo $ACCOUNT_ID
+echo $REGION
+echo $BUCKET_NAME
+echo $GLUE_DATABASE

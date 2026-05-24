@@ -1,0 +1,14 @@
+{
+  "RoleARN": "YOUR_FIREHOSE_ROLE_ARN",
+  "ClusterJDBCURL": "jdbc:redshift://YOUR_ENDPOINT:5439/analyticsdb",
+  "CopyCommand": {
+    "DataTableName": "iot_telemetry",
+    "CopyOptions": "CSV"
+  },
+  "Username": "adminuser",
+  "Password": "StrongPassword123!",
+  "S3Configuration": {
+    "RoleARN": "YOUR_FIREHOSE_ROLE_ARN",
+    "BucketARN": "arn:aws:s3:::YOUR_BUCKET_NAME"
+  }
+}

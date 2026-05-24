@@ -1,0 +1,1 @@
+echo $TAG_POLICY_ID

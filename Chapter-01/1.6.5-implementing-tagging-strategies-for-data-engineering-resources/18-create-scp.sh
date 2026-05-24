@@ -1,0 +1,1 @@
+export SCP_ID=$(aws organizations create-policy   --name "$SCP_NAME"   --description "Deny creation of untagged data engineering resources"   --type SERVICE_CONTROL_POLICY   --content file://deny-untagged-resources.json   --query 'Policy.PolicySummary.Id'   --output text)

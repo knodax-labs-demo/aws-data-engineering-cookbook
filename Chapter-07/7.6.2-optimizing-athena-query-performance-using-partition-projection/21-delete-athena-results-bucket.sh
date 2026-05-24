@@ -1,0 +1,1 @@
+aws s3 rb s3://$ATHENA_RESULTS_BUCKET

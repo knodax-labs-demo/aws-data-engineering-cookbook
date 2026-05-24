@@ -1,0 +1,1 @@
+aws s3 mb s3://$ATHENA_RESULTS_BUCKET --region $AWS_REGION

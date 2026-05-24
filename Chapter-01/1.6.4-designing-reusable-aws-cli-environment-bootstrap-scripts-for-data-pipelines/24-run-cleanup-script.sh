@@ -1,0 +1,1 @@
+./cleanup-pipeline-environment.sh

@@ -1,0 +1,13 @@
+ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
+REGION=us-east-1
+PROJECT_NAME=data-pipeline-demo
+BUCKET_NAME=$PROJECT_NAME-$ACCOUNT_ID
+RAW_PREFIX=raw
+PROCESSED_PREFIX=processed
+CURATED_PREFIX=curated
+ATHENA_RESULTS_PREFIX=athena-results
+GLUE_DATABASE=data_pipeline_db
+GLUE_CRAWLER=data-pipeline-crawler
+GLUE_JOB=data-pipeline-job
+IAM_ROLE_NAME=data-pipeline-glue-role
+LOG_PREFIX=logs

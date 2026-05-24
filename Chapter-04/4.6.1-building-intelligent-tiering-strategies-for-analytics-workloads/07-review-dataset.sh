@@ -1,0 +1,1 @@
+cat $OBJECT_NAME

@@ -1,0 +1,1 @@
+aws lambda add-permission   --function-name $FUNCTION_NAME   --statement-id EventBridgeInvokePermission   --action lambda:InvokeFunction   --principal events.amazonaws.com   --source-arn arn:aws:events:$REGION:$ACCOUNT_ID:rule/$RULE_NAME

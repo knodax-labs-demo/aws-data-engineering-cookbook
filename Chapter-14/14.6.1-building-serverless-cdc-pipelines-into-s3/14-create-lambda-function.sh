@@ -1,0 +1,1 @@
+aws lambda create-function   --function-name $FUNCTION_NAME   --runtime python3.12   --role $ROLE_ARN   --handler lambda_function.lambda_handler   --zip-file fileb://cdc-stream-processor.zip   --timeout 30   --memory-size 256   --region $REGION   --environment Variables="{CDC_BUCKET=$CDC_BUCKET}"

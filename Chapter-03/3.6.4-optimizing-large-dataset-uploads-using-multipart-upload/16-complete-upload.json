@@ -1,0 +1,20 @@
+{
+  "Parts": [
+    {
+      "ETag": "REPLACE_ETAG_PART1",
+      "PartNumber": 1
+    },
+    {
+      "ETag": "REPLACE_ETAG_PART2",
+      "PartNumber": 2
+    },
+    {
+      "ETag": "REPLACE_ETAG_PART3",
+      "PartNumber": 3
+    },
+    {
+      "ETag": "REPLACE_ETAG_PART4",
+      "PartNumber": 4
+    }
+  ]
+}

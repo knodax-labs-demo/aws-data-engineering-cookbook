@@ -1,0 +1,1 @@
+cat hadoop-output/part-*
