@@ -309,78 +309,17 @@ Learn AWS data engineering through structured explanations, hands-on recipes, an
 </p>
 
 <p>
-👉 <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer">
+👉 <a href="https://www.amazon.com/dp/B0H2SK2J1T" target="_blank" rel="noopener noreferrer">
 Get the book on Amazon
 </a>
 </p>
 
 <hr />
-
-<h2>🎓 KnoDAX Training</h2>
-
 <p>
-Get additional AWS learning resources, labs, certification guides, and hands-on training from KnoDAX.
-</p>
+<h2>Enjoying the AWS Data Engineering Cookbook: Practical Recipes for Scalable Data Pipelines and Analytics on AWS Book?</h2>
 
+🔗 [Leave a Review on Amazon](https://www.amazon.com/review/create-review/?asin=B0H2SK2J1T)
+
+Your feedback helps other readers discover the book and supports future KnoDAX publications.
+Thank you for your support and for being part of the KnoDAX learning community.
 <p>
-👉 <a href="https://knodax.com">
-https://knodax.com
-</a>
-</p>
-
-<hr />
-
-<h2>📌 Contributing Policy</h2>
-
-<p>
-This repository is provided as official companion material for the book.
-</p>
-
-<p>
-External pull requests, issues, discussions, and contributions are not accepted.
-</p>
-
-<p>
-All updates are managed internally to ensure consistency, stability, and long-term maintainability for readers.
-</p>
-
-<hr />
-
-<h2>🙌 Support This Project</h2>
-
-<p>If this repository helped you:</p>
-
-<ul>
-  <li>⭐ Star the repository</li>
-  <li>📘 Support the book</li>
-  <li>🚀 Share with other AWS learners</li>
-</ul>
-
-<img width="1280" height="640" alt="aws-data-engineering-cookbook-github" src="https://github.com/user-attachments/assets/0bb702ae-7913-400d-a3f1-a2a4ef0a6680" />
-
-<hr />
-
-<h2>🏷️ Topics</h2>
-
-<p>
-AWS Data Engineering, Amazon S3, AWS Glue, Athena,
-Redshift, EMR, Kinesis, Lake Formation, QuickSight,
-Data Lakes, Lakehouse, ETL, ELT, Streaming Analytics,
-PySpark, Hadoop, Spark, Data Governance,
-Cloud Analytics, Serverless Data Pipelines,
-AWS CLI, Big Data, Modern Data Architecture
-</p>
-
-<hr />
-
-<h2>🧑‍💻 Maintained by KnoDAX</h2>
-
-<p>
-Hands-on AWS training, certification guides, cloud engineering learning, and production-focused data engineering resources.
-</p>
-
-<p>
-👉 <a href="https://knodax.com">
-https://knodax.com
-</a>
-</p>
